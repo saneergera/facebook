@@ -1,0 +1,133 @@
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+header {
+	background-color: #4267b2;
+	height: 30px;
+}
+footer {}
+#wrapper {
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+#main, #menu, #sidebar {
+	height: 600px;
+}
+#main {
+	background-color: orange;
+}
+#menu {
+	background-color: pink;
+}
+#sidebar {
+	background-color: yellow;
+}
+#main, #menu, #sidebar {
+	background-color: #e9ebee;
+}
+#header {
+	background-color: #4267b2;
+	color: white;
+}
+.white-text {
+	color: white !important;
+}
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+.list-heading {
+	padding: 20px 15px 0 15px;
+}
+.panel-body .glyphicon {
+	margin-left: 10px;
+	margin-right: 4px;
+}
+.text-post {
+	margin-bottom: 15px;
+	margin-top: 0;
+}
+.image-post {
+	margin-bottom: 15px;
+}
+#main {
+	overflow: auto;
+}
+#main::-webkit-scrollbar {
+	display: none;
+}
+.comment {
+    margin: 0;
+}
+#c{
+   width: 100%;
+   margin-top: ;
+
+ }
+.pen{
+  margin-right:65px;
+}
+.camera{
+  margin-right:80px;
+}
+.live{
+  margin-right: 20px;
+}
+.name{
+  position: relative;
+top: -15px;
+}
+.img{
+  height: 30px;
+width: 30px;
+position: relative;
+top: 10px;
+left: -46px;
+
+}
+#profile_link{
+
+padding: 0px;
+
+}
+#status{
+  font-size: 20px;
+}
+.pic{
+  margin-right: 30px;
+}
+#menu{
+  font-size: 18px;
+}
+.status-pic{
+  margin: 0px;
+  display: inline;
+}
+#status{
+  display: inline;
+  position: relative;
+    bottom: 12px;
+    color: #A9A9A9
+}
+.s-pic{
+  display: inline;
+  margin: 0px;
+  margin-bottom: 20px;
+}
